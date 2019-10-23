@@ -8,3 +8,9 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   end
 
 end
+
+#Error:
+#UsersControllerTest#test_should_get_new:  nie przechodzi ten test 
+#ActionController::RoutingError: uninitialized constant UserController 
+#Did you mean?  UsersController
+#   test/controllers/user_controller_test.rb:6:in `block in <class:UsersControllerTest>'
